@@ -1,0 +1,163 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 1, 26);
+  overflow: hidden;
+}
+
+.screen-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.col1 {
+  width: 65%;
+  height: 100%;
+}
+.col1-inner {
+  margin-left: 7vw;
+}
+.col1 h1 {
+  font-size: 85px;
+  color: white;
+}
+.col2 {
+  width: 35%;
+  height: 100%;
+}
+.overview-cards {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 8vh;
+  width: 30vh;
+  background-color: rgb(1, 3, 46);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 5px 5px 50px rgba(0, 1, 31, 0.45);
+}
+.col2wrap {
+  width: 100%;
+  height: 95vh;
+  background-color: rgb(1, 3, 46);
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  box-shadow: -5px 10px 50px rgba(0, 1, 31, 0.45);
+}
+.navbar {
+  width: 6vw;
+  height: 96vh;
+  margin: 2vh auto;
+  float: left;
+  position: absolute;
+  z-index: 99;
+  background-color: rgb(1, 3, 46);
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 5px 10px 50px rgba(0, 1, 31, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blink {
+  height: 5px;
+  width: 40px;
+  background-color: crimson;
+}
+.card-text {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-text h1 {
+  width: 60%;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+  margin: 0px;
+}
+.card-text h2 {
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 40%;
+  font-size: 17px;
+  color: #ffffff;
+  text-align: right;
+  margin: 0px;
+}
+.red {
+  background-color: red;
+}
+.grey {
+  background-color: grey;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.card-red:hover {
+  background-color: red;
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+}
+.card-grey:hover {
+  background-color: grey;
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+}
+.card-green:hover {
+  background-color: green;
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+}
+.card-orange:hover {
+  background-color: orange;
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+}
+
+#wrapper {
+  height: 50vh;
+  width: 94%;
+  position: relative;
+  background: rgb(0, 1, 26);
+  padding: 1px;
+  max-width: 900px;
+  border-radius: 20px;
+  margin: 0px;
+  border: 0px solid #009;
+}
+
+#chart-bar {
+  position: relative;
+  margin-top: -38px;
+}
+.menu-link {
+  transform: rotate(-90deg);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+  height: 40px;
+  outline: none;
+  text-decoration: none;
+  background-color: rgb(1, 3, 46);
+  border: none;
+  margin: 40px;
+  padding: 1px;
+  position: relative;
+}
